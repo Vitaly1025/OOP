@@ -1,0 +1,15 @@
+C:\Users\VITALIY\source\repos\Laba12\Laba12\bin\Debug\Laba12.exe.config
+C:\Users\VITALIY\source\repos\Laba12\Laba12\bin\Debug\Laba12.exe
+C:\Users\VITALIY\source\repos\Laba12\Laba12\bin\Debug\Laba12.pdb
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12.csprojResolveAssemblyReference.cache
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\MainWindow.g.cs
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\App.g.cs
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12_MarkupCompile.cache
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12_MarkupCompile.lref
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\MainWindow.baml
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12.g.resources
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12.Properties.Resources.resources
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12.csproj.GenerateResource.Cache
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12.csproj.CoreCompileInputs.cache
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12.exe
+C:\Users\VITALIY\source\repos\Laba12\Laba12\obj\Debug\Laba12.pdb

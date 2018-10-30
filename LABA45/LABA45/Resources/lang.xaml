@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:LABA45.Resources"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="m_Title">Text editor RTF</v:String>
+    <v:String x:Key="m_File">FILE</v:String>
+    <v:String x:Key="m_Create">Create FILE</v:String>
+    <v:String x:Key="m_Exit">Exit</v:String>
+    <v:String x:Key="m_lang">Language</v:String>
+    <v:String x:Key="m_theame">Theame</v:String>
+    <v:String x:Key="m_black">Black</v:String>
+    <v:String x:Key="m_white">White</v:String>
+</ResourceDictionary>

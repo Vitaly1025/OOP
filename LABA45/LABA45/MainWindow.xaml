@@ -1,0 +1,128 @@
+﻿<Window
+    x:Class="LABA45.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:LABA45"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="{DynamicResource m_Title}"
+    Width="750"
+    Height="550"
+    MinHeight="300"
+    MinWidth="500"
+    Icon="Resources/images/document.png"  mc:Ignorable="d">
+    <Window.Resources>
+        <ResourceDictionary Source="Resources/Style.xaml"/>
+    </Window.Resources>
+    
+    <Grid>
+        <DockPanel LastChildFill="true">
+            <Menu Height="25" DockPanel.Dock="Top">
+                <MenuItem Header="{DynamicResource m_File}">
+                    <MenuItem
+                        x:Name="cnf"
+                        Click="cnf_click"
+                        Header="{DynamicResource m_Create}" />
+                    <Separator />
+                    <MenuItem Header="{DynamicResource m_Exit}" Click="Exit"/>
+                </MenuItem>
+                <MenuItem
+                    Name="menulang"
+                    Click="LanguageChanged"
+                    Header="{DynamicResource m_lang}">
+                    <MenuItem Header="Русский" />
+                    <MenuItem Header="English" />
+                </MenuItem>
+                <MenuItem Header="{DynamicResource m_theame}" x:Name="theame">
+                    <MenuItem Header="{DynamicResource m_black}"/>
+                    <MenuItem Header="{DynamicResource m_white}"/>
+                </MenuItem>
+            </Menu>
+            <ToolBar DockPanel.Dock="Top">
+                <Button Name="Open" Click="Open_File_Click">
+                    <Image
+                        Width="25"
+                        Height="25"
+                        Source="Resources/images/folder.png" />
+                </Button>
+                <Button Margin="10,0,0,0" Click="Save_File_Click">
+                    <Image
+                        Width="25"
+                        Height="25"
+                        Source="Resources/images/save.png" />
+                </Button>
+                <Separator />
+                <ToggleButton
+                    Name="Bold"
+                    Checked="Bold_Click"
+                    Unchecked="Bold_Click">
+                    <Image
+                        Width="25"
+                        Height="25"
+                        Source="Resources/images/text_bold.png" />
+                </ToggleButton>
+                <ToggleButton
+                    Name="Italic"
+                    Checked="Italic_Click"
+                    Unchecked="Italic_Click">
+                    <Image
+                        Width="25"
+                        Height="25"
+                        Source="Resources/images/text_italic.png" />
+                </ToggleButton>
+                <ToggleButton
+                    Name="Underline"
+                    Checked="Underline_Click"
+                    Unchecked="Underline_Click">
+                    <Image
+                        Width="25"
+                        Height="25"
+                        Source="Resources/images/text_underline.png" />
+                </ToggleButton>
+                <Separator />
+                <Button
+                    Name="Undo" Click="Undo_click">
+                    <Image
+                        Width="25"
+                        Height="25"
+                        Source="Resources/images/undo.png" />
+                </Button>
+                <Button
+                    Name="Redo" Click="Redo_click">
+                    <Image
+                        Width="25"
+                        Height="25"
+                        Source="Resources/images/redo.png" />
+                </Button>
+                <Separator/>
+                <ComboBox 
+                    Name="Font_family"
+                    Width="150"
+                    Margin="20,0,20,0"
+                    SelectionChanged="Font_family_SelectionChanged" />
+                <Slider
+                    Name="Size"
+                    Width="150"
+                    Height="20"
+                    IsSnapToTickEnabled="True"
+                    Maximum="64"
+                    Minimum="4"
+                    TickFrequency="1"
+                    ValueChanged="Slider_ValueChanged"
+                    Value="14" />
+                <Label Name="Font_id" />
+
+            </ToolBar>
+            <ToolBar DockPanel.Dock="Bottom">
+                <ComboBox x:Name="Projects"/>
+                <TextBlock Name="State" Style="{DynamicResource States}"/>
+            </ToolBar>
+            <RichTextBox
+                Background="{DynamicResource Rich}"
+                UndoLimit="10"
+                Name="TextArea"
+                SelectionChanged="TextArea_SelectionChanged"
+                TextChanged="TextArea_TextChanged" AllowDrop="True" Drop="Textarea_Drop" PreviewDragOver="Drag_Drop"/>
+        </DockPanel>
+    </Grid>
+</Window>

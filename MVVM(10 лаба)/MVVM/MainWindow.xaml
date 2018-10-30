@@ -1,0 +1,29 @@
+﻿<Window x:Class="MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0,1*"/>
+            <RowDefinition Height="0,9*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBox Text="{Binding FilterProperty, UpdateSourceTrigger=PropertyChanged}" Margin="0 0 300 0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <DataGrid  ItemsSource="{Binding ItemsProperty}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Тип" Binding="{Binding Type}"/>
+                    <DataGridTextColumn Header="Дата" Binding="{Binding Date}"/>
+                    <DataGridTextColumn Header="Количество" Binding="{Binding Money}"/>
+                    <DataGridTextColumn Header="Имя вкладчика" Binding="{Binding Investor.Name}"/>
+                    <DataGridTextColumn Header="Пол" Binding="{Binding Investor.Floor}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>
