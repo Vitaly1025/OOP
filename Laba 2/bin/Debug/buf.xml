@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Saving xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Evm>Тип ЭВМ: ПК</Evm>
+  <CPU>Тип Процессора: Amd</CPU>
+  <CPU_Name>Наименование процессора: AX</CPU_Name>
+  <ROM>Количество памяти: 300 ГБ</ROM>
+  <RAM_Type>Тип ПЗУ: SSD</RAM_Type>
+  <RAM>Количество памяти ОЗУ: 8 ГБ</RAM>
+  <OS>Выбранная предустановленная ОСmacOS</OS>
+</Saving>

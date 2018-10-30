@@ -1,0 +1,13 @@
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\bin\Debug\Laba 2.exe.config
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\bin\Debug\Laba 2.exe
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\bin\Debug\Laba 2.pdb
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba 2.csprojResolveAssemblyReference.cache
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba_2.Form1.resources
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba_2.Properties.Resources.resources
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba 2.csproj.GenerateResource.Cache
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba 2.csproj.CoreCompileInputs.cache
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba 2.exe
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba 2.pdb
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba_2.Form2.resources
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba_2.Form3.resources
+C:\Users\VITALIY\source\repos\Laba 2\Laba 2\obj\Debug\Laba_2.Form4.resources
