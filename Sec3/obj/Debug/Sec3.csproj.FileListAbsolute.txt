@@ -1,0 +1,7 @@
+C:\Users\VITALIY\source\repos\Sec3\Sec3\bin\Debug\Sec3.exe.config
+C:\Users\VITALIY\source\repos\Sec3\Sec3\bin\Debug\Sec3.exe
+C:\Users\VITALIY\source\repos\Sec3\Sec3\bin\Debug\Sec3.pdb
+C:\Users\VITALIY\source\repos\Sec3\Sec3\obj\Debug\Sec3.csprojAssemblyReference.cache
+C:\Users\VITALIY\source\repos\Sec3\Sec3\obj\Debug\Sec3.csproj.CoreCompileInputs.cache
+C:\Users\VITALIY\source\repos\Sec3\Sec3\obj\Debug\Sec3.exe
+C:\Users\VITALIY\source\repos\Sec3\Sec3\obj\Debug\Sec3.pdb
